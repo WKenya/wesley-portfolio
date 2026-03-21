@@ -8,7 +8,7 @@ The site is a single-page static overview designed to feel restrained, clear, an
 
 - simple introductory hero
 - technologies and areas of experience
-- selected project summaries
+- selected project summaries, including agentic coding and agent tooling
 - a short note on working style and approach
 - clear contact links
 - auto dark/light support with a manual toggle
