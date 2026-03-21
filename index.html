@@ -6,16 +6,16 @@
     <title>Wesley Kenyon | Software Engineer</title>
     <meta
       name="description"
-      content="Wesley Kenyon is a software engineer specializing in AI, distributed cloud systems, performance, and system modernization."
+      content="Wesley Kenyon is a software engineer focused on practical AI systems, distributed cloud applications, observability, and workflow automation."
     />
     <meta
       name="theme-color"
-      content="#f3efe7"
+      content="#f5f3ee"
       media="(prefers-color-scheme: light)"
     />
     <meta
       name="theme-color"
-      content="#0e1418"
+      content="#171b1d"
       media="(prefers-color-scheme: dark)"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -29,14 +29,15 @@
         <div class="brand-lockup">
           <span class="brand-mark" aria-hidden="true">WK</span>
           <div>
-            <p class="eyebrow">Wesley Kenyon</p>
-            <p class="header-note">Software Engineer</p>
+            <p class="site-name">Wesley Kenyon</p>
+            <p class="site-role">Software Engineer</p>
           </div>
         </div>
 
         <nav class="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
+          <a href="#overview">Overview</a>
+          <a href="#work">Selected Work</a>
+          <a href="#approach">Approach</a>
           <a href="#contact">Contact</a>
           <button
             class="theme-toggle"
@@ -50,235 +51,201 @@
       </header>
 
       <main id="main">
-        <section class="hero section">
-          <div class="hero-copy">
-            <p class="eyebrow">Cleveland, Ohio, USA</p>
-            <h1>Software Engineer specializing in AI and Distributed Cloud Systems.</h1>
-            <p class="hero-summary">
-              I build practical AI products, distributed cloud platforms, and
-              modernization efforts that improve reliability, speed, and time to
-              market without unnecessary complexity.
-            </p>
-
-            <div class="hero-actions">
-              <a class="button button-primary" href="mailto:wes@weskenyon.com"
-                >Email Wesley</a
-              >
-              <a class="button button-secondary" href="#experience"
-                >View experience</a
-              >
-            </div>
+        <section class="hero">
+          <p class="eyebrow">Cleveland, Ohio</p>
+          <h1>Building reliable software with a preference for clear systems and simple operations.</h1>
+          <p class="hero-summary">
+            Wesley works across AI-enabled products, cloud platforms, and internal
+            systems where the hard part is usually not novelty, but making the
+            solution understandable, supportable, and useful in production.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:wes@weskenyon.com">Email Wesley</a>
+            <a class="button button-secondary" href="#work">Read selected work</a>
           </div>
-
-          <aside class="hero-card" aria-label="Profile details">
-            <p class="card-label">Current focus</p>
-            <ul class="focus-list">
-              <li>AI and agentic systems</li>
-              <li>Distributed cloud architecture</li>
-              <li>Performance and scalability</li>
-              <li>System modernization</li>
-            </ul>
-
-            <div class="hero-links">
-              <a href="https://github.com/WKenya" target="_blank" rel="noreferrer"
-                >GitHub</a
-              >
-              <a
-                href="https://www.linkedin.com/in/wesley-kenyon/"
-                target="_blank"
-                rel="noreferrer"
-                >LinkedIn</a
-              >
-            </div>
-          </aside>
         </section>
 
-        <section class="section" id="about">
+        <section class="section section-grid" id="overview" aria-labelledby="overview-title">
           <div class="section-heading">
-            <p class="eyebrow">About</p>
-            <h2>Engineering with a bias for practical outcomes.</h2>
+            <p class="eyebrow">Overview</p>
+            <h2 id="overview-title">Technologies and areas of experience.</h2>
           </div>
 
-          <div class="about-grid">
-            <p class="lede">
-              Results-driven engineer with experience across AI, distributed
-              computing, cloud architecture, and full-stack product delivery.
-              Proven track record leading teams, modernizing legacy systems, and
-              shipping credible solutions under real constraints.
-            </p>
+          <div class="overview-grid">
+            <article class="panel">
+              <h3>Technologies</h3>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>C# and .NET</li>
+                <li>AWS</li>
+                <li>Terraform</li>
+                <li>SQL and DynamoDB</li>
+                <li>Docker and ECS</li>
+                <li>Step Functions</li>
+                <li>Lambda</li>
+                <li>SNS and SQS</li>
+                <li>Grafana and CloudWatch</li>
+                <li>OpenTelemetry</li>
+              </ul>
+            </article>
 
-            <div class="pillars" aria-label="Strengths">
-              <span>Full-stack product engineering</span>
-              <span>CI/CD and automation</span>
-              <span>Cloud-native systems</span>
-              <span>Operational resilience</span>
-              <span>Technical leadership</span>
-              <span>Healthcare platform experience</span>
-            </div>
+            <article class="panel">
+              <h3>Areas of focus</h3>
+              <ul class="detail-list">
+                <li>Distributed cloud systems with operational constraints and long-lived integrations.</li>
+                <li>Observability work that improves diagnosis, ownership, and runbook quality.</li>
+                <li>Workflow automation that replaces brittle manual processes with repeatable systems.</li>
+                <li>AI products and tooling where flexibility matters more than overdesigned abstractions.</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <h3>Types of systems</h3>
+              <p>
+                Recent work has included internal platforms, healthcare-adjacent
+                communication systems, service integrations, operational tooling,
+                and conversational AI workflows. The common thread is shipping
+                software that other teams can understand and extend.
+              </p>
+            </article>
           </div>
         </section>
 
-        <section class="section" aria-labelledby="impact-title">
+        <section class="section" id="work" aria-labelledby="work-title">
           <div class="section-heading">
-            <p class="eyebrow">Selected impact</p>
-            <h2 id="impact-title">Measured improvements, not vague claims.</h2>
+            <p class="eyebrow">Selected Work</p>
+            <h2 id="work-title">Project summaries based on representative delivery work.</h2>
           </div>
 
-          <div class="stats-grid">
-            <article class="stat-card">
-              <p class="stat-value">300K+</p>
-              <p class="stat-label">Daily API calls supported on an event-driven AWS platform.</p>
+          <div class="story-list">
+            <article class="story">
+              <h3>Improving observability in a file-sending integration service</h3>
+              <p>
+                Wesley helped refine a newly launched document delivery service that
+                routed files from cloud infrastructure into an on-prem abstraction
+                layer with many downstream customer integrations. The core problem
+                was not only failed processing, but poor visibility into where a
+                failure actually originated.
+              </p>
+              <p>
+                He defined the implementation ticket and acceptance criteria, added
+                structured error handling in the SQS processing path, and separated
+                in-service failures from downstream integration failures. Enriched
+                logs and clearer categories made Grafana views more useful for
+                triage and ownership.
+              </p>
             </article>
-            <article class="stat-card">
-              <p class="stat-value">95%</p>
-              <p class="stat-label">Labor cost removed by replacing a 17-step manual workflow.</p>
+
+            <article class="story">
+              <h3>Drafting an observability pattern for .NET services in ECS</h3>
+              <p>
+                On a .NET service running in ECS, Wesley used ChatGPT as a drafting
+                partner while designing an observability pattern that covered
+                requirements, sample code, container configuration, metrics, and
+                OpenTelemetry sidecar integration for CloudWatch and Grafana.
+              </p>
+              <p>
+                The work was useful because it accelerated documentation, but it
+                also reinforced the need for review. Requirements, config values,
+                and example implementations were checked carefully with senior
+                engineers and architects, with a preference for simpler and more
+                defensible solutions over cleverness.
+              </p>
             </article>
-            <article class="stat-card">
-              <p class="stat-value">5s → 300ms</p>
-              <p class="stat-label">Latency improvement on a key path using AWS X-Ray and targeted fixes.</p>
+
+            <article class="story">
+              <h3>Designing a configurable JSON workflow system for AI agents</h3>
+              <p>
+                Wesley contributed to a workflow-based system that allowed teams to
+                define conversational AI agents through simple JSON node and edge
+                configurations. It supported customer service and medical
+                administration workflows in a realtime streaming environment.
+              </p>
+              <p>
+                The design stayed intentionally flexible. Rather than assume rigid
+                AI workflow logic would age well, the system focused on reliable
+                state handling, correct tool and instruction passing, and canonical
+                reference tools that other teams could adopt as patterns evolved.
+              </p>
             </article>
-            <article class="stat-card">
-              <p class="stat-value">~50%</p>
-              <p class="stat-label">Fewer contractor bugs after establishing a canonical implementation pattern.</p>
-            </article>
-            <article class="stat-card">
-              <p class="stat-value">~30%</p>
-              <p class="stat-label">Database performance gain from read/write traffic separation and query refactors.</p>
-            </article>
-            <article class="stat-card">
-              <p class="stat-value">1h → 15m</p>
-              <p class="stat-label">Deploy time reduced through ECS, Docker, and improved CI/CD workflows.</p>
+
+            <article class="story">
+              <h3>Automating phone number registration with Step Functions</h3>
+              <p>
+                Wesley led the proof of concept, design, and primary implementation
+                of a workflow that automated Twilio phone number registration for
+                provider practices. The previous process involved many manual steps
+                and long turnaround times.
+              </p>
+              <p>
+                The replacement used Terraform-managed AWS Step Functions, Lambda,
+                and DynamoDB to create a version-controlled workflow with customer
+                state tracking, re-drive support, and safer rollout behavior. The
+                result was a more reliable operational process and a better
+                experience for practices trying to reach patients from recognizable
+                local numbers.
+              </p>
             </article>
           </div>
         </section>
 
-        <section class="section" id="experience" aria-labelledby="experience-title">
+        <section class="section section-grid" id="approach" aria-labelledby="approach-title">
           <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2 id="experience-title">Recent roles and highlights.</h2>
+            <p class="eyebrow">Approach</p>
+            <h2 id="approach-title">How Wesley tends to work.</h2>
           </div>
 
-          <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <p class="timeline-company">Phreesia</p>
-                <p class="timeline-period">02/2026–Present</p>
-              </div>
-              <div class="timeline-body">
-                <h3>Senior Software Engineer</h3>
-                <ul>
-                  <li>Led engineers on a real-time AI agent product and shipped ahead of competitors.</li>
-                  <li>Built an end-to-end reference implementation for multi-step medication refill agent tool-calling flows.</li>
-                  <li>Established CI/CD on Amazon ECS and Docker, cutting deploy time from about one hour to fifteen minutes.</li>
-                  <li>Created implementation patterns that enabled contractors to contribute with materially fewer bugs.</li>
-                </ul>
-              </div>
+          <div class="approach-grid">
+            <article class="panel">
+              <h3>Prefer clarity over display</h3>
+              <p>
+                Most systems become difficult because diagnosis, ownership, and
+                operational behavior are unclear. Work is usually strongest when
+                the code, logs, and process make failures understandable.
+              </p>
             </article>
 
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <p class="timeline-company">Phreesia</p>
-                <p class="timeline-period">2023–01/2026</p>
-              </div>
-              <div class="timeline-body">
-                <h3>Software Engineer IV</h3>
-                <ul>
-                  <li>Architected an event-driven AWS platform handling more than 300,000 API calls per day with C#, Lambda, SNS/SQS, and DynamoDB.</li>
-                  <li>Modernized legacy .NET and MySQL systems into AWS with near-zero downtime while reducing cost.</li>
-                  <li>Automated a 17-step workflow with AWS Step Functions, sharply reducing manual effort and improving recovery paths.</li>
-                  <li>Built CI/CD pipelines with Terraform and GitLab and optimized EC2 Auto Scaling, SFTP processing, and observability.</li>
-                </ul>
-              </div>
+            <article class="panel">
+              <h3>Use tools carefully</h3>
+              <p>
+                New tooling, including AI tooling, is useful when it speeds up
+                drafting and exploration without replacing engineering judgment.
+                The details still need review, simplification, and validation.
+              </p>
             </article>
 
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <p class="timeline-company">Phreesia</p>
-                <p class="timeline-period">2021–2023</p>
-              </div>
-              <div class="timeline-body">
-                <h3>Software Engineer III</h3>
-                <ul>
-                  <li>Built APIs for a greenfield patient engagement product using serverless Lambdas and ASP.NET Core.</li>
-                  <li>Implemented AWS OpenSearch-backed search APIs and delivered UI assets through CloudFront and Route 53.</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <p class="timeline-company">Hyland Software</p>
-                <p class="timeline-period">2016–2021</p>
-              </div>
-              <div class="timeline-body">
-                <h3>Software Engineer</h3>
-                <ul>
-                  <li>Built full-stack ASP.NET applications with C#, JavaScript, HTML/CSS, and SQL.</li>
-                  <li>Integrated with Epic, Allscripts, and Cerner while mentoring developers and onboarding teammates.</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-meta">
-                <p class="timeline-company">Cisco Systems</p>
-                <p class="timeline-period">2014–2015</p>
-              </div>
-              <div class="timeline-body">
-                <h3>Software Intern</h3>
-                <ul>
-                  <li>Built automated tests for cloud-based hardware provisioning and developed an internal reporting website.</li>
-                </ul>
-              </div>
+            <article class="panel">
+              <h3>Optimize for maintainable progress</h3>
+              <p>
+                The best result is often a system that another engineer can pick
+                up quickly: version-controlled workflows, clear abstractions,
+                repeatable deployments, and practical documentation.
+              </p>
             </article>
           </div>
         </section>
 
-        <section class="section" aria-labelledby="extras-title">
-          <div class="section-heading">
-            <p class="eyebrow">Elsewhere</p>
-            <h2 id="extras-title">Work, background, and public presence.</h2>
-          </div>
-
-          <div class="extras-grid">
-            <article class="info-card">
-              <p class="card-label">Education</p>
-              <h3>The Ohio State University</h3>
-              <p>B.S. in Electrical and Computer Engineering</p>
-            </article>
-            <article class="info-card">
-              <p class="card-label">GitHub</p>
-              <h3>WKenya</h3>
-              <p>Public repositories include <span class="inline-strong">seo-leadgen</span> and <span class="inline-strong">exa-research-openclaw-skill</span>.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section contact-section" id="contact">
+        <section class="section contact-section" id="contact" aria-labelledby="contact-title">
           <div class="contact-card">
             <div>
               <p class="eyebrow">Contact</p>
-              <h2>Open to thoughtful technical conversations and practical product work.</h2>
+              <h2 id="contact-title">Available for thoughtful engineering conversations.</h2>
               <p>
-                The fastest way to reach Wesley is by email. GitHub and LinkedIn
-                are also linked below.
+                Email is the best way to reach Wesley. GitHub and LinkedIn are
+                also linked below.
               </p>
             </div>
 
             <div class="contact-actions">
-              <a class="button button-primary" href="mailto:wes@weskenyon.com"
-                >wes@weskenyon.com</a
-              >
+              <a class="button button-primary" href="mailto:wes@weskenyon.com">wes@weskenyon.com</a>
               <div class="contact-links">
-                <a href="https://github.com/WKenya" target="_blank" rel="noreferrer"
-                  >GitHub</a
-                >
+                <a href="https://github.com/WKenya" target="_blank" rel="noreferrer">GitHub</a>
                 <a
                   href="https://www.linkedin.com/in/wesley-kenyon/"
                   target="_blank"
                   rel="noreferrer"
-                  >LinkedIn</a
                 >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
@@ -286,8 +253,8 @@
       </main>
 
       <footer class="site-footer">
-        <p>© <span id="year"></span> Wesley Kenyon</p>
-        <p>Built as a fast, dependency-free static site.</p>
+        <p>&copy; <span id="year"></span> Wesley Kenyon</p>
+        <p>Simple static site. No build step.</p>
       </footer>
     </div>
   </body>

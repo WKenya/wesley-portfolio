@@ -1,23 +1,23 @@
-# Wesley Kenyon Portfolio Site
+# Wesley Kenyon Site
 
-A responsive, dependency-free personal portfolio site for Wesley Kenyon built with plain HTML, CSS, and a small amount of vanilla JavaScript.
+A responsive, dependency-free personal site for Wesley Kenyon built with plain HTML, CSS, and a small amount of vanilla JavaScript.
 
 ## Overview
 
-The site is a single-page static portfolio designed to feel restrained, credible, and modern:
+The site is a single-page static overview designed to feel restrained, clear, and professional:
 
-- sharp typographic hero
-- concise career summary and strengths
-- measured impact metrics
-- compact experience timeline
-- clear contact calls to action
+- simple introductory hero
+- technologies and areas of experience
+- selected project summaries
+- a short note on working style and approach
+- clear contact links
 - auto dark/light support with a manual toggle
 
 ## Files
 
 - `index.html` contains the semantic page structure and content.
 - `styles.css` contains the full responsive design system and layout rules.
-- `script.js` adds theme persistence, the current year, and restrained reveal motion.
+- `script.js` adds theme persistence and the current year.
 
 ## Local preview
 
@@ -45,7 +45,7 @@ No build step is required. Deploy the repository contents as-is.
 - No framework or package dependencies.
 - Responsive layout for mobile, tablet, and desktop.
 - Accessible contrast in both light and dark themes.
-- Minimal motion with reduced-motion support.
+- Minimal, understated visual treatment.
 - Clean semantic sections for straightforward maintenance.
 
 ## Suggested checks
