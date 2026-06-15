@@ -100,15 +100,11 @@ a {
   padding: 1.5rem 0 3rem;
 }
 
-.site-header,
-.site-footer {
+.site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-
-.site-header {
   padding-bottom: 2.5rem;
 }
 
@@ -380,11 +376,6 @@ a {
   .story-list,
   .contact-card {
     grid-template-columns: 1fr;
-  }
-
-  .site-footer {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
 
